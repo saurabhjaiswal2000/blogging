@@ -1,0 +1,106 @@
+body{
+  background-color: #bbbbbb;
+  text-align: center;
+
+}
+hr{
+  background-color:#EAF6F6 ;
+  border-style:none;
+  border-top-style:inset;
+  border-color: #f8f5f1;
+  border-width: 8px;
+  border-radius: 5rem;
+  width: 88%;
+
+}
+p{
+  color: #6e7c7c;
+}
+.bookmark{
+  color: black;
+}
+
+.navbar-brand{
+  font-size: 3rem;
+  font-weight: bold;
+  margin-left: 3rem;
+}
+.navigation{
+  margin: 1rem 4rem;
+  border-radius: 10rem;
+}
+
+.navbutton{
+  margin-left: 18rem;
+}
+
+.bird{
+  width: 18rem;
+  margin: 2rem
+}
+.blog{
+  background-color: #bdc7c9;
+  border-radius: 1rem;
+}
+.html{
+  width:40%;
+  float: left;
+}
+.blog-2{
+  background-color: #dbf6e9;
+  border-radius: 1rem;
+}
+.foot{
+  background-color: #1b1717;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.foot-link{
+  color: #fff;
+  margin: 0.5rem;
+}
+.foot-img{
+  width: 4%;
+  margin: 0.2rem;
+}
+
+/* sign-up-page */
+.heading{
+  margin-bottom: 1.5rem;
+}
+.navbar-link{
+  text-decoration: none;
+  color: #40394a;
+  margin: 1.5rem;
+}
+
+a:hover{
+  color: #6e7c7c;
+  text-decoration: none;
+}
+.sign-up{
+  font-family: 'Tinos';
+  color: #40394a;
+}
+
+@media (max-width:980px){
+  .container{
+    text-align: center;
+    padding: 2% 2%;
+  }
+  .navbutton{
+    margin-left: 0;
+  }
+  .navigation{
+    border-radius: 1rem;
+  }
+  .form-inline{
+    margin-left: 22rem;
+  }
+  .login-button{
+    margin: 1rem 3rem;
+  }
+  .foot-img{
+    width:2.3rem;
+  }
+}
